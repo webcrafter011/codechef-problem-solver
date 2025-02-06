@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 // Import the custom CodeBlock
-import CodeBlock from "./CodeBlock";
+import CodeBlock from "./Codeblock.jsx";
 
 const ProblemSolver = () => {
   const [url, setUrl] = useState("");
