@@ -28,7 +28,7 @@ const ProblemSolver = () => {
     setLoadingStep("Extracting & Generating...");
 
     try {
-      const response = await fetch("http://localhost:5000/solve", {
+      const response = await fetch("https://codechef-problem-solver-back-git-35ee07-webcrafter011s-projects.vercel.app/solve", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
